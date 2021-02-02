@@ -25,13 +25,7 @@ echo "POD IP Address is: $ip", "<br>";
 $deployment = getenv("COLOR");
 
 $deployment = getenv("COLOR");
-if ( $deployment == 'blue') {
-  $color = 'blue';
-} elseif ($deployment == 'green')  {
-  $color = 'green';
-} else {
-  $color = 'blue';
-} 
+$color=$deployment;
 
 echo '<i style="color:';
 echo $color;
