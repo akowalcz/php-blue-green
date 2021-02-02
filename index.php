@@ -30,7 +30,7 @@ $color=$deployment;
 echo '<i style="color:';
 echo $color;
 echo ';font-size:30px;font-family:calibri ;">
-      Hello World today is Feb 2 at 12:42, in color ';
+      Hello World today is Feb 2 at 12:44, in color ';
 echo $color;
 echo ' </i> ';
 
